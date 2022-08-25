@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+.marker{
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+/** RED MARKER **/
+
+.red{
+    background: linear-gradient( rgb(122, 74, 14), rgb(245, 62, 113), rgb(122, 27, 27) );
+}
+
+/** GREEN MARKER **/
+.green{
+    background: linear-gradient( #55680D, #75F53E, #116C31 );
+}
+
+/** BLUE MARKER **/
+
+.blue{
+    background: linear-gradient( hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%) );
+}
